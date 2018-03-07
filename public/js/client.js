@@ -1,2 +1,3 @@
 var socket = io()
-console.log('script working.')
+
+console.log('client connected')
