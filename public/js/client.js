@@ -14,5 +14,4 @@ $(function() {
         return false;
     });
 
-    $('body').css('background', 'red');
 });
