@@ -10,6 +10,7 @@ $(function() {
         var message = $('#m').val();
         console.log(message);
         $('#m').val('');
+        socket.emit('chat message', message);
         return false;
     });
 
