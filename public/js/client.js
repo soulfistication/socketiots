@@ -9,7 +9,7 @@ $(function() {
     $('form').submit(function() {
         var message = $('#m').val();
         console.log(message);
-        
+        $('#m').val('');
         return false;
     });
 
