@@ -7,7 +7,9 @@ $(function() {
     var socket = io();
 
     $('form').submit(function() {
-        console.log('button clicked!');
+        var message = $('#m').val();
+        console.log(message);
+        
         return false;
     });
 
